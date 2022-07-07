@@ -1,0 +1,83 @@
+/* Cursor */
+.mri-cursor-pointer
+{
+    cursor: pointer;
+}
+
+
+/* Radius */
+.mri-radius
+{
+    border-radius: 10%;
+}
+
+/* Text */
+.mri-text-dark
+{
+    color: rgba(0, 0, 0, 1);
+}
+
+.mri-text-light
+{
+    color: rgba(255, 255, 255, 1)
+}
+
+/* Grid */
+.mri-grid-4
+{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    gap: 1rem;
+}
+
+/* Sizing */
+.mri-h-vh
+{
+    height: 100vh;
+}
+
+.mri-h-75
+{
+    height: 75%;
+}
+
+.mri-h-50
+{
+    height: 50%;
+}
+
+.mri-h-40
+{
+    height: 40px;
+}
+
+.mri-w-50
+{
+    width: 50%;
+}
+
+.mri-mb-1
+{
+    margin-bottom: 1rem;
+}
+
+/* Background */
+.mri-bg-image
+{
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+}
+
+.mri-bg-dark
+{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Theme */
+.mri-theme-glass
+{
+    backdrop-filter: blur(10px) saturate(128%);
+    -webkit-backdrop-filter: blur(10px) saturate(128%);
+    background-color: rgba(17, 25, 40, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
